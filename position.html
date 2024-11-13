@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .parent {
+        /* position:static; */
+        /* position: relative; */
+        text-align: center;
+        margin: 10px 10px 10px 10px;
+        padding: 10px 10px 10px 10px;
+        border: 2px solid;
+        background-color: rgb(177, 201, 201);
+    }
+
+    .box {
+        width: 500px;
+        height: 300px;
+        margin: 10px 10px 10px 10px;
+        padding: 10px 10px 10px 10px;
+        border: 1px solid;
+    }
+
+    .para1 {
+        /* position: relative;
+        left: 20px; */
+        /* position: fixed;
+        top: 5px; */
+        position: sticky;
+        top: 0px;
+        background-color: rgb(174, 156, 192);
+    }
+
+    .para2 {
+        background-color: rgb(105, 167, 113);
+    }
+
+    .para3 {
+        background-color: rgb(159, 160, 86);
+    }
+
+    .para4 {
+        background-color: rgb(136, 93, 72);
+    }
+</style>
+
+<body>
+    <div class="parent">
+        <div class="box para1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio maxime provident expedita temporibus
+                praesentium dolorem!</p>
+        </div>
+        <div class="box para2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos voluptatum fugit sequi vero,
+                voluptate ducimus.</p>
+        </div>
+        <div class="box para3">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos consequatur harum laudantium
+                repellendus quos eos!</p>
+        </div>
+        <div class="box para4">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure consequuntur praesentium est commodi ipsa
+                veritatis!</p>
+        </div>
+    </div>
+</body>
+
+</html>
